@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
   font-family: 'Source Code Pro', monospace;
 }
 
-body, .navbar {
+.navbar, .home-page {
   //Gradient by ighosh at uigradients.com
   background: #F1F2B5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -30,4 +30,11 @@ body, .navbar {
 
 .navbar {
   border: none;
+}
+
+.home-page {
+  color: white;
+  margin-top: -20px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
